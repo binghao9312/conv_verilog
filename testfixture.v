@@ -3,9 +3,9 @@
 `define SDFFILE    "./syn/CONV_syn.sdf"	  // Modify your sdf file name
 `define End_CYCLE  100000000              // Modify cycle times once your design need more cycle times!
 
-`define PAT        "../dat_univ/cnn_sti.dat"                 // Modify your "dat" directory path
-`define L0_EXP0        "../dat_univ/cnn_layer0_exp0.dat"       
-`define L1_EXP0        "../dat_univ/cnn_layer1_exp0.dat"     
+`define PAT        "dat_univ/cnn_sti.dat"                 // Modify your "dat" directory path
+`define L0_EXP0        "dat_univ/cnn_layer0_exp0.dat"       
+`define L1_EXP0        "dat_univ/cnn_layer1_exp0.dat"     
 
 
 module testfixture;
